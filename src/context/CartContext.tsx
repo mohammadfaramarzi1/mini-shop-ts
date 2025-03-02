@@ -29,7 +29,7 @@ function CartProvider({ children }: CartProviderProps) {
 
   const removeProduct = (id: number) => {};
 
-  const removeAll = () => {};
+  const removeAll = () => setUserCart([]);
 
   return (
     <CartContext.Provider
