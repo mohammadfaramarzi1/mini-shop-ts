@@ -1,4 +1,4 @@
-import Cart from "./components/Cart";
+import Cart from "./pages/Cart/Cart";
 import Home from "./pages/Home/Home";
 
 const routes = [
