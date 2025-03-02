@@ -27,7 +27,11 @@ function CartProvider({ children }: CartProviderProps) {
 
   const addProduct = (id: number) => {};
 
-  const removeProduct = (id: number) => {};
+  const removeProduct = (id: number) => {
+    setUserCart((prevProducts) =>
+      prevProducts.filter((product) => product.id !== id)
+    );
+  };
 
   const removeAll = () => setUserCart([]);
 
