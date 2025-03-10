@@ -28,3 +28,11 @@
     padding: 1px 4px;
     font-weight: bold;
 }
+
+.button {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

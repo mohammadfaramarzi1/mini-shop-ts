@@ -1,0 +1,14 @@
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.empty {
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
